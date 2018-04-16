@@ -1,5 +1,5 @@
 {
-  "name": "juice-box",
+  "name": "agrotuto",
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^3.0.2",

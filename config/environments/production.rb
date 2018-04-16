@@ -59,7 +59,7 @@ Rails.application.configure do
 
   # Use a real queuing backend for Active Job (and separate queues per environment)
   # config.active_job.queue_adapter     = :resque
-  # config.active_job.queue_name_prefix = "juice-box_#{Rails.env}"
+  # config.active_job.queue_name_prefix = "agrotuto_#{Rails.env}"
   config.action_mailer.perform_caching = false
   config.action_mailer.default_url_options = { host: ENV['HOST'], :protocol => 'https' }
   # Ignore bad email addresses and do not raise email delivery errors.
