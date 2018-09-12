@@ -34,7 +34,7 @@ class Signup extends Component{
               <div className="box-shadow padded-50-except-top">
                 <form onSubmit={handleSubmit(values => this.submit(values))}>
                   <div className="text-center padded-20">
-                    <h1>Create an account</h1>
+                    <h1>Create an account 2</h1>
                   </div>
                   <Input icon="perm_identity" name="username" label="username" type="text" error={errorMessages["first_name"]} />
                   <Input icon="email" name="email" label="email" type="email" error={errorMessages["email"]} />
