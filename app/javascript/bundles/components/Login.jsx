@@ -40,7 +40,7 @@ class Login extends Component{
                 <div className="box-shadow padded-50-except-top">
                   <form onSubmit={handleSubmit(values => this.submit(values))}>
                     <div className="text-center padded-20">
-                      <h1>Log in 1</h1>
+                      <h1>Log in 3</h1>
                     </div>
                     <Input icon="email" name="email" label="email" type="email" />
                     <Input icon="lock_outline" name="password" label="password" type="password" />
